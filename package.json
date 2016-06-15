@@ -1,29 +1,30 @@
 {
-    "name": "condvar",
+    "name": "condvar2",
     "version": "0.0.5",
-    "description": "Conditional variables to simplify asynchronous code",
+    "description": "Conditional variables to simplify asynchronous code. Simple fork with uvrun replaced with uvrun2",
     "author": "boba1l0s2k9 <boba1l0s2k9@outlook.com>",
-    "homepage": "https://github.com/boba1l0s2k9/condvar",
+    "homepage": "https://github.com/nredko/condvar",
     "keywords": ["condvar", "cv", "async", "flow control", "node"],
     "main": "CondVar.js",
     "contributors": [
         "boba1l0s2k9 <boba1l0s2k9@outlook.com> (https://github.com/boba1l0s2k9)"
+        "nredko <nredko@outlook.com> (https://github.com/nredko)"
     ],
     "engines": { "node": ">=0.6.0" },
-    "dependencies": { "uvrun": ">=0.0.0" },
+    "dependencies": { "uvrun2": ">=0.0.0" },
     "devDependencies": { "tap": ">=0.4.6", "jshint": ">=2.3.0", "jsdoc": ">=3.3.0" },
     "repository": {
         "type" : "git",
-        "url" : "https://github.com/boba1l0s2k9/condvar.git"
+        "url" : "https://github.com/nredko/condvar.git"
     },
     "bugs": {
-        "mail": "boba1l0s2k9@outlook.com",
-        "url": "https://github.com/boba1l0s2k9/condvar/issues"
+        "mail": "nredko@outlook.com",
+        "url": "https://github.com/nredko/condvar/issues"
     },
     "licenses": [
         {
             "type": "CC0",
-            "url": "https://github.com/boba1l0s2k9/condvar/raw/master/LICENSE"
+            "url": "https://github.com/nredko/condvar/raw/master/LICENSE"
         }
     ],
     "scripts": {

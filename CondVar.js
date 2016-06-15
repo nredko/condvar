@@ -1,6 +1,6 @@
 "use strict";
 
-var runOnce = require('uvrun').runOnce;
+var runOnce = require('uvrun2').runOnce;
 
 var global_state = {
     total_cv_count:  0,
